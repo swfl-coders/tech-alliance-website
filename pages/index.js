@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Card from '../components/Card/Card'
+import { groups } from '../utils/config'
 
 export default function Home() {
   return (
@@ -23,20 +24,11 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-
-        <Card
-            groupName="SWFL Coders"
-            groupDescription="SWFL Coders is a group for techies, developers, coders and non-coders, who wish to learn more about the fantastic world of programming."
-            meetingDate="Meets the 2nd Thursday of each month"
-            groupLink="https://www.meetup.com/SWFL-Coders"
-          />
-
-          {/* replace with another card */}
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
+        <>
+        {groups.map(group => (
+          <Card key={group.id} {...group} />
+        ))}
+        </>
         </div>
       </main>
 
