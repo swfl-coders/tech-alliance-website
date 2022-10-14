@@ -41,4 +41,11 @@ export const groups = [
     meetingDate:"Meets the 1st Thursday of each month",
     groupLink:"https://www.meetup.com/vrarswfl"
   },
+  {
+    id: 7,
+    groupName: "Tech Alliance of SWFL",
+    groupDescription: "An alliance of Southwest Florida tech leaders advancing innovation and education across the region.",
+    meetingDate:"Community outreach events are hosted on a quarterly basis",
+    groupLink:"https://www.meetup.com/SWFLTechAlliance/"
+  },
 ]
