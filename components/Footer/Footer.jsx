@@ -7,7 +7,6 @@ const Footer = () => {
       <div className={styles.copy}>
         Copyright © <span>{new Date().getFullYear()}</span> Tech Alliance of SWFL. All rights reserved.
       </div>
-
       <div className={styles.social}>
         <div className={styles.logos}>
           <a href="https://www.meetup.com/TechAllianceSWFL/" target="_blank" rel="noreferrer">
