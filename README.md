@@ -39,3 +39,9 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 We are using Vercel, you can see the live version here:
 [https://tech-alliance-website.vercel.app](https://tech-alliance-website.vercel.app)
+
+
+## gitpod
+Or just click and go! Run our project on gitpod and a web browser and get going anywhery!
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/salahraja/altech-redes.git)
