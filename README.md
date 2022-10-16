@@ -44,4 +44,4 @@ We are using Vercel, you can see the live version here:
 ## gitpod
 Or just click and go! Run our project on gitpod and a web browser and get going anywhery!
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/salahraja/altech-redes.git)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/swfl-coders/tech-alliance-website.git)
