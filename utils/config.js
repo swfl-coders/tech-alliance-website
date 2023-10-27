@@ -8,10 +8,9 @@ export const groups = [
   },
   {
     id: 2,
-    groupName: "SWFL Open Source",
-    groupDescription: "Meet others in your local area who want to join the Open Source Revolution! Gather to discuss the benefits of using open source projects and developing open source software.",
-    meetingDate:"Meets the 2nd Wednesday of each month",
-    groupLink:"https://www.meetup.com/meetup-group-XtYjgWFh"
+    groupName: "SWFL Data",
+    groupDescription: "The SWFL Data Meetup is a place to come learn and share knowledge about all things data. Data today is worth more than oil and this group's goal is to become a forum open to anyone interested in the topic. We  host workshops where you can learn about how to apply data analytics to your business, your career or your personal life. Events will be a mix of hand-on learning sessions, fireside chats and networking events.",
+    groupLink:"https://www.meetup.com/SWFL-Data-Meetup/"
   },
   {
     id: 3,
@@ -29,20 +28,13 @@ export const groups = [
   },
   {
     id: 5,
-    groupName: "SWFL Tech Nights",
-    groupDescription: "SWFL Tech Nights Meetup is designed for those who want to learn, teach and share knowledge in the area of SWFL. We share ideas, learn from each other, and even collaborate on projects for real world impact. These gatherings provide a chance to connect for all those interested in the intersection of social technologies and social change.Our objective is to keep plan meetings around tech and how to make it work for all, but the main focus will be networking, helping people in nonprofit projects, training, sharing local job opportunities, etc.",
-    meetingDate:"Meets the 2nd Tuesday of each month",
-    groupLink:"https://www.meetup.com/swfltechnights"
-  },
-  {
-    id: 6,
     groupName: "VR & AR of Southwest Florida",
     groupDescription: "Our group welcomes VR/AR creators and enthusiasts of Southwest Florida and beyond! We welcome everyone, including innovators, developers, inventors, storytellers, content producers, entrepreneurs, hackers, programmers, pioneers, and adventurers. Join us to be in touch with ARVR news, events and learn something new to get your development to the next level.",
     meetingDate:"Meets the 1st Thursday of each month",
     groupLink:"https://www.meetup.com/vrarswfl"
   },
   {
-    id: 7,
+    id: 6,
     groupName: "Tech Alliance of SWFL",
     groupDescription: "An alliance of Southwest Florida tech leaders advancing innovation and education across the region.",
     meetingDate:"Community outreach events are hosted on a quarterly basis",
