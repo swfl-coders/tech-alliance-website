@@ -32,12 +32,5 @@ export const groups = [
     groupDescription: "Our group welcomes VR/AR creators and enthusiasts of Southwest Florida and beyond! We welcome everyone, including innovators, developers, inventors, storytellers, content producers, entrepreneurs, hackers, programmers, pioneers, and adventurers. Join us to be in touch with ARVR news, events and learn something new to get your development to the next level.",
     meetingDate:"Meets the 1st Thursday of each month",
     groupLink:"https://www.meetup.com/vrarswfl"
-  },
-  {
-    id: 6,
-    groupName: "Tech Alliance of SWFL",
-    groupDescription: "An alliance of Southwest Florida tech leaders advancing innovation and education across the region.",
-    meetingDate:"Community outreach events are hosted on a quarterly basis",
-    groupLink:"https://www.meetup.com/SWFLTechAlliance/"
-  },
+  }
 ]
