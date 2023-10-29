@@ -8,7 +8,7 @@
 }
 
 .main {
-  padding: 5rem 0;
+  padding: 2rem;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -16,9 +16,11 @@
   align-items: center;
 }
 
-.description {
+.about {
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  width: 70%;
+  text-align: center;
 }
 
 .grid {
