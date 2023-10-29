@@ -35,9 +35,17 @@ export default function Home() {
           <p>
             Our community events are held quarterly, free of charge, and are open to all. We gather at Collaboratory in Downtown Fort Myers, providing a welcoming space for individuals and organizations to come together and share in our passion for technology.
           </p>
-          <p>
-            Come join us!
-          </p>
+          <div className={styles.logos}>
+            <a target="_blank"  href="https://www.meetup.com/TechAllianceSWFL/" rel="noopener noreferrer">
+            <p>Join us!</p>
+              <Image
+                src="/meetup.svg"
+                alt="Meetup logo"
+                width={40}
+                height={40}
+              />
+            </a>
+          </div>
         </div>
         <div className={styles.grid}>
         <>
