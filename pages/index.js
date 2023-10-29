@@ -23,7 +23,7 @@ export default function Home() {
           </p>
           <p>
             Our alliance comprises the following groups:<br></br>
-            <b>
+            <b style={{color: '#358aca'}}>
               ✨ SWFL Coders
               ✨ SWFL Data
               ✨ SWFL Sec

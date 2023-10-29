@@ -6,7 +6,7 @@
   font-size: 2rem;
   justify-content: center;
   align-items: center;
-  background-color: rgb(75, 192, 192);
+  background: linear-gradient(90deg, rgba(55,184,242,1) 0%, rgba(53,138,202,1) 49%, rgba(76,101,181,1) 100%);
 }
 
 @media (max-width: 600px) {

@@ -3,8 +3,6 @@
   padding: 1.5rem;
   text-align: left;
   word-break: break-word;
-  color: inherit;
-  text-decoration: none;
   border: 2px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
@@ -14,20 +12,19 @@
 .card:hover,
 .card:focus,
 .card:active {
-  border-color: rgb(75, 192, 192);
-  background: rgb(75, 192, 192);
-  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(234,255,252,1) 25%, rgba(206,234,236,0.3253676470588235) 75%, rgba(75,192,192,1) 100%);
+  border: 2px solid #358aca;
+  box-shadow: 4px 4px 2px 1px #358aca;
 }
 
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
-  color: rgb(75, 192, 192);
+  color: #358aca;
 }
 
 .card p {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 
