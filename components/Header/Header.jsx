@@ -1,10 +1,12 @@
 import React from 'react'
+import Image from 'next/image'
+import logoImage from '../../public/images/logo.png'
 import styles from './Header.module.css'
 
 const Header = () => {
   return (
     <header className={styles.header}>
-      <h1>Tech Alliance of SWFL</h1>
+      <Image src={logoImage} alt="" placeholder="blur" priority />
     </header>
   )
 }
