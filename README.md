@@ -15,6 +15,8 @@ This repository is for the website of our newly created Tech Alliance with all o
 
 ## 🤓 Run the app
 
+IMPORTANT: We are using node v20
+
 1. Install dependencies `npm install`
 
 2. Run the app `npm run dev`
