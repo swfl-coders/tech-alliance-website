@@ -1,25 +1,22 @@
 import React, { useState, useEffect } from "react"
 import Moment from "moment"
+import FetchJsonP from "fetch-jsonp"
 import Image from "next/image";
 
 export default function Meetups() {
   const [meetups, setMeetups] = useState(null)
+  useEffect(() => nextMeetup(), [])
 
-  useEffect(() => {
-    fetch("https://api.meetup.com/SWFL-Coders/events")
-      .then(response => {
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        return response.json();
+  function nextMeetup() {
+    FetchJsonP("https://api.meetup.com/SWFL-Coders/events")
+      .then(function(response) {
+        return response.json()
       })
-      .then(json => {
-        setMeetups(json)
+      .then(function(json) {
+        setMeetups(json.data)
       })
-      .catch(e => {
-        console.log('There was a problem with your fetch operation: ' + e.message);
-      });
-  }, [])
+  }
+
   console.log({meetups})
 
   if (meetups == null) {
@@ -34,7 +31,7 @@ export default function Meetups() {
     return meetups.map(meetup => (
     <div key={meetup.id}>
         <a href={meetup.link}>
-            <Image src={meetup.group.photo.photo_link} alt={meetup.group.name} />
+            {/* <Image src={meetup.group.photo.photo_link} alt={meetup.group.name} /> */}
             <p>{meetup.name}</p>
             <p>
                 {`${Moment(meetup.local_date).format("MMMM Do YYYY")} | Time: ${
