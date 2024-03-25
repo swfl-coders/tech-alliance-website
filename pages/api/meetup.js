@@ -5,45 +5,64 @@ import Image from "next/image";
 
 export default function Meetups() {
   const [meetups, setMeetups] = useState(null)
-  useEffect(() => nextMeetup(), [])
+  const meetupUrls = [
+    "https://api.meetup.com/SWFL-Coders/events",
+    "https://api.meetup.com//music-producers-of-swfl",
+    "https://api.meetup.com/pythonswfl",
+    "https://api.meetup.com/SWFL-Coders/events",
+    "https://api.meetup.com/swfl-hackerspace",
+    "https://api.meetup.com/SWFLSec-Southwest-Florida-Infosec-Meetup",
+    "https://api.meetup.com/swfltechnights",
+    "https://api.meetup.com/vrarswfl",
+  ];
 
-  function nextMeetup() {
-    FetchJsonP("https://api.meetup.com/SWFL-Coders/events")
-      .then(function(response) {
-        return response.json()
-      })
-      .then(function(json) {
-        setMeetups(json.data)
-      })
+  useEffect(() => {
+    const fetchMeetups = async () => {
+      const allMeetups = await Promise.all(meetupUrls.map(url => fetchMeetupData(url)));
+      const mergedMeetups = allMeetups.flat(); // flatten the array of arrays
+      setMeetups(mergedMeetups);
+    };
+    fetchMeetups();
+  }, []);
+
+  async function fetchMeetupData(url) {
+    try {
+      const response = await FetchJsonP(url);
+      const json = await response.json();
+      return json.data;
+    } catch (error) {
+      console.error("Error fetching meetups:", error);
+      return [];
+    }
   }
 
-  console.log({meetups})
-
-  if (meetups == null) {
-    return null
+  if (meetups === null) {
+    return null;
   } else if (meetups.length === 0) {
     return (
       <div>
         No meetups currently scheduled. Check back soon!
       </div>
-    )
+    );
   } else {
     return meetups.map(meetup => (
-    <div key={meetup.id}>
+      <div key={meetup.id}>
         <a href={meetup.link}>
-            {/* <Image src={meetup.group.photo.photo_link} alt={meetup.group.name} /> */}
-            <p>{meetup.name}</p>
-            <p>
-                {`${Moment(meetup.local_date).format("MMMM Do YYYY")} | Time: ${
-                    meetup.local_time
-                }`}
-            </p>
-            Venue: {meetup.venue ? meetup.venue.name : "TBD"}
+          {/* TODO: Fix this and make sure the image is displayed */}
+          {/* <Image src={meetup.group.photo.photo_link} alt={meetup.group.name} /> */}
+          <p>{meetup.name}</p>
+          <p>
+            {`${Moment(meetup.local_date).format("MMMM Do YYYY")} | Time: ${
+              meetup.local_time
+            }`}
+          </p>
+          Venue: {meetup.venue ? meetup.venue.name : "TBD"}
         </a>
         <p>
-            {meetup.is_online_event ? 'Click to get Zoom Link' : `Address: ${meetup.venue.address_1} ${meetup.venue.city}, ${meetup.venue.zip}`}
+          {/* TODO: Fix this. The venue is returning null for some meetups due to some be online */}
+          {/* {meetup.is_online_event ? 'Click to get Zoom Link' : `Address: ${meetup.venue.address_1} ${meetup.venue.city}, ${meetup.venue.zip}`} */}
         </p>
-    </div>
-    ))
+      </div>
+    ));
   }
 }
