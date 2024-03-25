@@ -28,6 +28,7 @@ export default function Home() {
               ✨ SWFL Hackerspace
               ✨ SWFL Tech Nights
               ✨ SWFL Sec
+            </br>
               ✨ Music Producers of SWFL
               ✨ Python SWFL
               ✨ VR & AR of Southwest Florida
