@@ -25,8 +25,11 @@ export default function Home() {
             Our alliance comprises the following groups:<br></br>
             <b style={{color: '#358aca'}}>
               ✨ SWFL Coders
-              ✨ SWFL Data
+              ✨ SWFL Hackerspace
+              ✨ SWFL Tech Nights
               ✨ SWFL Sec
+            </br>
+              ✨ Music Producers of SWFL
               ✨ Python SWFL
               ✨ VR & AR of Southwest Florida
               ✨
