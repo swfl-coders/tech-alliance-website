@@ -1,33 +1,48 @@
 export const groups = [
   {
     id: 1,
+    groupName: "Music Producers of Southwest Florida",
+    groupDescription: "Welcome to the Music Producers of Southwest Florida, where the beats of the Gulf meet a community of passionate music makers, artists, creators, and enthusiasts! Our group is dedicated to bringing together individuals with varying levels of experience, from seasoned producers to those eager to learn the art of creating music. Our main goal is to provide a platform for music enthusiasts to connect, collaborate, and enhance their music production skills. Whether you're already experienced in the field or just starting your journey, our doors are wide open for you to join, learn, and grow alongside fellow enthusiasts.",
+    meetingDate:"Meets the 1st Thursday every other month (odd months)",
+    groupLink:"https://www.meetup.com/music-producers-of-swfl/"
+  },
+  {
+    id: 2,
+    groupName: "Python SWFL",
+    groupDescription: "Python SWFL is a volunteer-run interdisciplinary user group for exploration and experimentation with the Python programming language. Whether you are a seasoned software engineer or a complete beginner, all levels are welcome! ",
+    meetingDate:"Meets the last Thursday of each month",
+    groupLink:"https://www.meetup.com/pythonswfl"
+  },
+  {
+    id: 3,
     groupName: "SWFL Coders",
     groupDescription: "SWFL Coders is a group for techies, developers, coders and non-coders, who wish to learn more about the fantastic world of programming. Our meetings are held twice a month, one at our official home the Collaboratory in Downtown Fort Myers and the other one in Naples or Bonita Springs.",
     meetingDate:"Meets the 2nd Thursday of each month",
     groupLink:"https://www.meetup.com/SWFL-Coders"
   },
   {
-    id: 2,
-    groupName: "SWFL Data",
-    groupDescription: "The SWFL Data Meetup is a place to come learn and share knowledge about all things data. Data today is worth more than oil and this group's goal is to become a forum open to anyone interested in the topic. We  host workshops where you can learn about how to apply data analytics to your business, your career or your personal life. Events will be a mix of hand-on learning sessions, fireside chats and networking events.",
-    groupLink:"https://www.meetup.com/SWFL-Data-Meetup/"
+    id: 4,
+    groupName: "SWFL Hackerspace",
+    groupDescription: "Hackerspaces are places where tech geeks, experts and nerds meet up to talk, build, and hack technology. Join the Southwest Florida Hackerspace if you feel you can contribute to the group or want to learn more about technology.",
+    meetingDate:"Meets every other Month on Saturdays",
+    groupLink:"https://www.meetup.com/swfl-hackerspace/"
   },
   {
-    id: 3,
+    id: 5,
     groupName: "SWFL Sec - Southwest Florida Infosec Meetup",
     groupDescription: "The mission of SWFLSec is to provide a free, vendor-neutral forum for the expansion and dissemination of industry knowledge, to extend the culture of security awareness, and enable members to make informed, and educated security decisions. SWFLSec runs on attendee participation. If you've built, broken, or discovered something cool, please consider sharing with the group.",
     meetingDate:"Meets the 3rd Tuesday of each month",
     groupLink:"https://www.meetup.com/SWFLSec-Southwest-Florida-Infosec-Meetup"
   },
   {
-    id: 4,
-    groupName: "Python SWFL",
-    groupDescription: "This is a group for anyone who is interested in learning more about the Python programming language. Absolute beginners and seasoned experts are welcome! Events will include everything from introductory Python classes to project nights where you can work on your Python projects and get help from more experienced developers. We'll also have opportunities for speakers and presenters to showcase their work and new projects.",
-    meetingDate:"Meets the last Thursday of each month",
-    groupLink:"https://www.meetup.com/pythonswfl"
+    id: 6,
+    groupName: "SWFL Tech Nights",
+    groupDescription: "SWFL Tech Nights organizes live speaking events (online and in person) and projects on a variety of tech topics revolving around Southwest Florida. The goal is to provide a learning environment to those who want to get involved in the technology field. A large portion of our members are youth and faculty from local schools and universities related to tech careers. We also have a large representation of members from local businesses and organizations.",
+    meetingDate:"Meets the 4th Tuesday of each month",
+    groupLink:"https://www.meetup.com/swfltechnights/"
   },
   {
-    id: 5,
+    id: 7,
     groupName: "VR & AR of Southwest Florida",
     groupDescription: "Our group welcomes VR/AR creators and enthusiasts of Southwest Florida and beyond! We welcome everyone, including innovators, developers, inventors, storytellers, content producers, entrepreneurs, hackers, programmers, pioneers, and adventurers. Join us to be in touch with ARVR news, events and learn something new to get your development to the next level.",
     meetingDate:"Meets the 1st Thursday of each month",
