@@ -20,7 +20,7 @@ const Footer = () => {
           </a>
         </div>
         <div className={styles.logos}>
-          <a href="https://www.facebook.com/groups/techswfl" target="_blank" rel="noreferrer">
+          <a href="https://www.facebook.com/techallianceswfl" target="_blank" rel="noreferrer">
             <Image
               src="/facebook.svg"
               alt="Facebook logo"
