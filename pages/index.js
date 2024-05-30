@@ -2,7 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Card from '../components/Card/Card'
-import { groups } from '../utils/config'
+import { groups } from '../utils/'
+
+
 
 export default function Home() {
   return (
@@ -16,7 +18,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.about}>
           <p>
-            We are a collective of technology groups and industry leaders dedicated to fostering innovation, promoting technology education, and driving the growth of technology in the Southwest Florida region.
+            Ay no! Ayudame!
           </p>
           <p>
             We are non-profit, non-partisan.
