@@ -19,7 +19,7 @@ export default function Meetups() {
   useEffect(() => {
     const fetchMeetups = async () => {
       const allMeetups = await Promise.all(meetupUrls.map(url => fetchMeetupData(url)));
-      const mergedMeetups = allMeetups.flat(); // flatten the array of arrays
+      const mergedMeetups = allMeetups.flat(); // flatten the array of arrays   
       setMeetups(mergedMeetups);
     };
     fetchMeetups();
