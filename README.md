@@ -3,7 +3,7 @@
 This repository is for the website of our newly created Tech Alliance with all our sister groups in SWFL.
 ## 🚀 Getting Started
 
-1. [Follow this great guide](https://gist.github.com/Chaser324/ce0505fbed06b947d962), but keep in mind we are using `main` instead of `master` for our default branch
+1. [Follow this great guide](https://gist.github.com/Chaser324/ce0505fbed06b947d962), but keep in mind we are using `main` instead of `master` for our default branch.
 
   FORK this repo first!
    On terminal:
