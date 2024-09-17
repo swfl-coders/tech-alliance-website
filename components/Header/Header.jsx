@@ -1,14 +1,6 @@
 import React from 'react'
-import Image from 'next/image'
-import logoImage from '../../public/images/logo.png'
-import styles from './Header.module.css'
+import Navigation from './Navigation'
 
-const Header = () => {
-  return (
-    <header className={styles.header}>
-      <Image src={logoImage} alt="" placeholder="blur" priority />
-    </header>
-  )
+export const Header = () => {
+  return <Navigation />
 }
-
-export default Header
