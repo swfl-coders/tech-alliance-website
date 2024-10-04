@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Card from '../components/Card/Card'
 import { groups } from '../utils/config'
+import { Logos } from '../components/Logos/Logos.jsx'
 
 export default function Home() {
   return (
@@ -22,7 +23,9 @@ export default function Home() {
           <p>We are non-profit, non-partisan.</p>
           <p>
             Our alliance comprises the following groups:<br></br>
+            
             <b style={{ color: '#358aca' }}>
+              <Logos />
               ✨ SWFL Coders ✨ SWFL Data ✨ SWFL Sec ✨ Python SWFL ✨ VR & AR of Southwest Florida ✨
             </b>
           </p>
