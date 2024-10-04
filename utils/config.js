@@ -43,7 +43,7 @@ export const groups = [
     groupName: "SWFL Sec - Southwest Florida Infosec Meetup",
     groupDescription: "The mission of SWFLSec is to provide a free, vendor-neutral forum for the expansion and dissemination of industry knowledge, to extend the culture of security awareness, and enable members to make informed, and educated security decisions. SWFLSec runs on attendee participation. If you've built, broken, or discovered something cool, please consider sharing with the group.",
     meetingDate:"Meets the 3rd Tuesday of each month",
-    groupLink:"https://www.meetup.com/SWFLSec-Southwest-Florida-Infosec-Meetup",
+    groupLink:"https://www.meetup.com/SWFLSec-Southwest-Florida-Infosec-Meetup/",
     facebookLink:"https://www.facebook.com/swflsec",
     xLink:"https://twitter.com/SWFLSec",
     linkedinLink:"https://www.linkedin.com/company/swflsec/",
