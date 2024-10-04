@@ -5,6 +5,7 @@ import Card from '../components/Card/Card'
 import StaryURL from '../components/StaryURL/StaryURL'
 import { groups } from '../utils/config'
 
+
 export default function Home() {
   return (
     <div className={styles.container}>
