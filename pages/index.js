@@ -23,12 +23,13 @@ export default function Home() {
           <p>We are non-profit, non-partisan.</p>
           <p>
             Our alliance comprises the following groups:<br></br>
-            
+            </p>
+            <Logos />
             <b style={{ color: '#358aca' }}>
-              <Logos />
-              ✨ SWFL Coders ✨ SWFL Data ✨ SWFL Sec ✨ Python SWFL ✨ VR & AR of Southwest Florida ✨
+              <p>
+                              ✨ SWFL Coders ✨ SWFL Data ✨ SWFL Sec ✨ Python SWFL ✨ VR & AR of Southwest Florida ✨
+           </p>
             </b>
-          </p>
           <p>
             Our community events are held quarterly, free of charge, and are open to all. We gather at Collaboratory in
             Downtown Fort Myers, providing a welcoming space for individuals and organizations to come together and
