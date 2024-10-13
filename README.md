@@ -25,6 +25,20 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
+## 📜 Testing the app
+
+We use Vite as our testing framework. To write and run test scripts:
+
+1. Add files under the `__tests__` folder, organized into folders named after the unit or module being tested
+
+2. Name the file `<identifier>.test.js`, or `<identifier>.test.jsx` if you are rendering components in the react extention notation
+
+3. Run the tests with `npm run test`
+
+View your console to see the results.
+
+You can edit the test scripts and the application code in real-time. Vite reruns the tests as you edit the test scripts or application code.
+
 ## 👩🏻‍💻✨👨🏻‍💻 Contribute to this project
 
 To contribute, please read our [contributing guidelines](CONTRIBUTE.md)
