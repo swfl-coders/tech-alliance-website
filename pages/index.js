@@ -5,7 +5,6 @@ import Card from '../components/Card/Card'
 import StaryURL from '../components/StaryURL/StaryURL'
 import { groups } from '../utils/config'
 
-
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -25,13 +24,9 @@ export default function Home() {
           <p>
             Our alliance comprises the following groups:<br></br>
             <b style={{ color: '#358aca' }}>
-            <StaryURL title="SWFL Coders" link="https://www.meetup.com/swfl-coders/" />
-            <StaryURL title="SWFL Sec" link="https://www.meetup.com/SWFLSec-Southwest-Florida-Infosec-Meetup/" />
-            <StaryURL title="Python SWFL" link="https://www.meetup.com/pythonswfl/" />
-            <StaryURL title="VR & AR of Southwest Florida" link="https://www.meetup.com/vrarswfl/" />
-            <StaryURL title="SWFL Hackerspace" link="https://www.meetup.com/swfl-hackerspace/" />
-            <StaryURL title="SWFL Tech Nights" link="https://www.meetup.com/swfltechnights/" />
-            <StaryURL title="Music Producers of SWFL" link="https://www.facebook.com/musicproducers.swfl" />
+              <div className={styles['tech-logos-container']}>
+                <img id="tech-logos" src="/images/tech-alliance-logos.png" alt="logo" width={350} height={225} />
+              </div>
             </b>
           </p>
           <p>

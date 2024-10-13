@@ -42,3 +42,17 @@
     flex-direction: column;
   }
 }
+
+.tech-logos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin: 0 auto;
+}
+
+#tech-logos {
+  width: 200px;
+  height: 100px;
+}
