@@ -7,9 +7,7 @@ Please visit our [issues page](https://github.com/swfl-coders/tech-alliance-webs
 **IMPORTANT:**
 
 - Pull requests (PRs) will only be accepted if you've first claimed the issue and it has been assigned to you by the maintainers.
-We are only accepting PRs for existing issues on the issues page. If you'd like to propose something that is not listed, please create an issue and get approval from the maintainers before submitting a PR. PRs for unapproved issues will not be reviewed.
-
-- If none of the issues you see is something you want to help, don't worry, you can still contribute. Just open a pull request and use the **enhancement** label.
+- We are only accepting PRs for existing issues on the issues page. If you'd like to propose something that is not listed, please create an issue and get approval from the maintainers before submitting a PR. 
 
 ## GIT & GitHub
 
