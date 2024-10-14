@@ -4,7 +4,12 @@ Thank you visiting and for your interest in collaborating to this project.
 
 Please visit our [issues page](https://github.com/swfl-coders/tech-alliance-website/issues) for tasks we currently need help with. If you find an **issue** you would like to contribute, please comment on it, so others can see someone is already working on this. Please remember to make a reference to your **issue number** when you open your pull request.
 
-If none of the issues you see is something you want to help, don't worry, you can still contribute. Just open a pull request and use the **enhancement** label.
+**IMPORTANT:**
+
+- Pull requests (PRs) will only be accepted if you've first claimed the issue and it has been assigned to you by the maintainers.
+We are only accepting PRs for existing issues on the issues page. If you'd like to propose something that is not listed, please create an issue and get approval from the maintainers before submitting a PR. PRs for unapproved issues will not be reviewed.
+
+- If none of the issues you see is something you want to help, don't worry, you can still contribute. Just open a pull request and use the **enhancement** label.
 
 ## GIT & GitHub
 
