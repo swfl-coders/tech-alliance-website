@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Card from '../components/Card/Card'
 import StaryURL from '../components/StaryURL/StaryURL'
 import { groups } from '../utils/config'
+import Logos from '../components/Logos/Logos.jsx'
 
 
 export default function Home() {
@@ -24,6 +25,8 @@ export default function Home() {
           <p>We are non-profit, non-partisan.</p>
           <p>
             Our alliance comprises the following groups:<br></br>
+            </p>
+            <Logos />
             <b style={{ color: '#358aca' }}>
             <StaryURL title="SWFL Coders" link="https://www.meetup.com/swfl-coders/" />
             <StaryURL title="SWFL Sec" link="https://www.meetup.com/SWFLSec-Southwest-Florida-Infosec-Meetup/" />
@@ -33,7 +36,6 @@ export default function Home() {
             <StaryURL title="SWFL Tech Nights" link="https://www.meetup.com/swfltechnights/" />
             <StaryURL title="Music Producers of SWFL" link="https://www.facebook.com/musicproducers.swfl" />
             </b>
-          </p>
           <p>
             Our community events are held quarterly, free of charge, and are open to all. We gather at Collaboratory in
             Downtown Fort Myers, providing a welcoming space for individuals and organizations to come together and
