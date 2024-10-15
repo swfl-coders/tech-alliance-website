@@ -3,7 +3,7 @@ import Image from "next/image";
 import pyswflImage from '../../public/images/logos/pyswfl.png';
 import musicprodImage from '../../public/images/logos/music-prod.png';
 import swflcodersImage from '../../public/images/logos/swfl-coders.png';
-import swfldataImage from '../../public/images/logos/swfl-data.jpg';
+import swfltechnightsImage from '../../public/images/logos/swfl-technights.JPG';
 import swflhackImage from '../../public/images/logos/swfl-hackerspace.png';
 import arvrImage from '../../public/images/logos/ar-vr.jpeg';
 import swflsecImage from '../../public/images/logos/swfl-sec.png';
@@ -14,7 +14,7 @@ const logos = {
     pyswfl: pyswflImage,
     musicprod: musicprodImage,
     swflcoders: swflcodersImage,
-    swfldata: swfldataImage,
+    swfltn: swfltechnightsImage,
     swflhack: swflhackImage,
     arvr: arvrImage,
     swflsec: swflsecImage,
