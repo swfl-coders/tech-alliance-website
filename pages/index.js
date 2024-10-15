@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Card from '../components/Card/Card'
 import StaryURL from '../components/StaryURL/StaryURL'
 import { groups } from '../utils/config'
+import Logos from '../components/Logos/Logos.jsx'
 
 
 export default function Home() {
