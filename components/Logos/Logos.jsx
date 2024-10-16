@@ -9,7 +9,7 @@ export default function Logos() {
             <Image 
             className="max-w-24"
             src='/images/logos/swfltn.png'
-            alt ='SWFL Tech-Nights'
+            alt ='SWFL Tech Nights'
             width={500}
             height={500}
             /> 
@@ -33,7 +33,7 @@ export default function Logos() {
             <Image 
              className="max-w-20 rounded-full"
              src='/images/logos/ar-vr.jpeg'
-             alt={'AR & VR of SWFL'}
+             alt='AR & VR of SWFL'
              width={500}
              height={500}
             />
@@ -41,7 +41,7 @@ export default function Logos() {
             <Image 
              className="max-w-20 rounded-full"
              src='/images/logos/swfl-coders.png'
-             alt ={'SWFL Coders'}
+             alt ='SWFL Coders'
              width={500}
              height={500}
             />
@@ -49,7 +49,7 @@ export default function Logos() {
             <Image 
              className="max-w-20 rounded-full"
              src='/images/logos/pyswfl.png'
-             alt ={'PySWFL'}
+             alt ='PySWFL'
              width={500}
              height={500}
             />
@@ -58,7 +58,7 @@ export default function Logos() {
            <Image 
              className="max-w-20"
              src='/images/logos/hackerspace.png'
-             alt ={'SWFL Hackerspace'}
+             alt ='SWFL Hackerspace'
              width={500}
              height={500}
             />
@@ -68,7 +68,7 @@ export default function Logos() {
             <Image 
              className="sm:max-w-screen"
              src='/images/logos/all-logos.png'
-             alt ={'Organization Logos'}
+             alt ='Tech Alliance Members'
              width={700}
              height={500}
              />
