@@ -69,7 +69,7 @@ export default function Logos() {
              className="sm:max-w-screen"
              src='/images/logos/all-logos.png'
              alt ={'Organization Logos'}
-             width={500}
+             width={700}
              height={500}
              />
             </div>
