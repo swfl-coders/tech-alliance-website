@@ -11,18 +11,18 @@ const Card = ({ facebookLink, githubLink, groupName, groupLink, groupDescription
     <a href={groupLink} className={styles.card}>
       <h2>{groupName} &rarr;</h2>
       <p>{groupDescription}</p>
-      <br/>
+      <br />
       <p>{meetingDate}</p>
-      <br/>
+      <br />
       <SocialIcon target="_blank" url={groupLink} />
-      {facebookLink && <SocialIcon target="_blank" url={facebookLink} />}
-      {instagramLink && <SocialIcon target="_blank" url={instagramLink} />}
-      {xLink && <SocialIcon target="_blank" url={xLink} />}
-      {linkedinLink && <SocialIcon target="_blank" url={linkedinLink} />}
-      {githubLink && <SocialIcon target="_blank" url={githubLink} />}
-      <br/>
+      {facebookLink && <SocialIcon className="ml-2" target="_blank" url={facebookLink} />}
+      {instagramLink && <SocialIcon className="ml-2" target="_blank" url={instagramLink} />}
+      {xLink && <SocialIcon className="ml-2" target="_blank" url={xLink} />}
+      {linkedinLink && <SocialIcon className="ml-2" target="_blank" url={linkedinLink} />}
+      {githubLink && <SocialIcon className="ml-2" target="_blank" url={githubLink} />}
+      <br />
     </a>
-  );
+  )
 };
 
 export default Card;
