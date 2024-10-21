@@ -5,7 +5,6 @@ import Card from '../components/Card/Card'
 import StaryURL from '../components/StaryURL/StaryURL'
 import { groups } from '../utils/config'
 
-
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -17,6 +16,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.about}>
+          <img src="/images/logo.png" alt="" className="mx-auto mb-12" />
           <p>
             We are a collective of technology groups and industry leaders dedicated to fostering innovation, promoting
             technology education, and driving the growth of technology in the Southwest Florida region.
@@ -25,13 +25,13 @@ export default function Home() {
           <p>
             Our alliance comprises the following groups:<br></br>
             <b style={{ color: '#358aca' }}>
-            <StaryURL title="SWFL Coders" link="https://www.meetup.com/swfl-coders/" />
-            <StaryURL title="SWFL Sec" link="https://www.meetup.com/SWFLSec-Southwest-Florida-Infosec-Meetup/" />
-            <StaryURL title="Python SWFL" link="https://www.meetup.com/pythonswfl/" />
-            <StaryURL title="VR & AR of Southwest Florida" link="https://www.meetup.com/vrarswfl/" />
-            <StaryURL title="SWFL Hackerspace" link="https://www.meetup.com/swfl-hackerspace/" />
-            <StaryURL title="SWFL Tech Nights" link="https://www.meetup.com/swfltechnights/" />
-            <StaryURL title="Music Producers of SWFL" link="https://www.facebook.com/musicproducers.swfl" />
+              <StaryURL title="SWFL Coders" link="https://www.meetup.com/swfl-coders/" />
+              <StaryURL title="SWFL Sec" link="https://www.meetup.com/SWFLSec-Southwest-Florida-Infosec-Meetup/" />
+              <StaryURL title="Python SWFL" link="https://www.meetup.com/pythonswfl/" />
+              <StaryURL title="VR & AR of Southwest Florida" link="https://www.meetup.com/vrarswfl/" />
+              <StaryURL title="SWFL Hackerspace" link="https://www.meetup.com/swfl-hackerspace/" />
+              <StaryURL title="SWFL Tech Nights" link="https://www.meetup.com/swfltechnights/" />
+              <StaryURL title="Music Producers of SWFL" link="https://www.facebook.com/musicproducers.swfl" />
             </b>
           </p>
           <p>
