@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Card from '../components/Card/Card'
 import StaryURL from '../components/StaryURL/StaryURL'
 import { groups } from '../utils/config'
+import Logos from '../components/Logos/Logos';
 
 export default function Home() {
   return (
@@ -23,7 +24,10 @@ export default function Home() {
           </p>
           <p>We are non-profit, non-partisan.</p>
           <p>
-            Our alliance comprises the following groups:<br></br>
+            Our alliance comprises the following groups:</p>
+            <br></br>
+            <Logos />
+            <p>
             <b style={{ color: '#358aca' }}>
               <StaryURL title="SWFL Coders" link="https://www.meetup.com/swfl-coders/" />
               <StaryURL title="SWFL Sec" link="https://www.meetup.com/SWFLSec-Southwest-Florida-Infosec-Meetup/" />
@@ -39,10 +43,10 @@ export default function Home() {
             Downtown Fort Myers, providing a welcoming space for individuals and organizations to come together and
             share in our passion for technology.
           </p>
-          <div className={styles.logos}>
+          <div className="flex justify-center">
             <a target="_blank" href="https://www.meetup.com/TechAllianceSWFL/" rel="noopener noreferrer">
               <p>Join us!</p>
-              <Image src="/meetup.svg" alt="Meetup logo" width={40} height={40} />
+              <Image className='inline' src="/meetup.svg" alt="Meetup logo" width={40} height={40} />
             </a>
           </div>
         </div>
