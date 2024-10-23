@@ -23,19 +23,18 @@ export default function Home() {
             technology education, and driving the growth of technology in the Southwest Florida region.
           </p>
           <p>We are non-profit, non-partisan.</p>
+          <p>Our alliance comprises the following groups:</p>
+          <br></br>
+          <Logos />
           <p>
-            Our alliance comprises the following groups:</p>
-            <br></br>
-            <Logos />
-            <p>
             <b style={{ color: '#358aca' }}>
-            <StaryURL title="SWFL Coders" link="https://www.meetup.com/swfl-coders/" />
-            <StaryURL title="SWFL Sec" link="https://www.meetup.com/SWFLSec-Southwest-Florida-Infosec-Meetup/" />
-            <StaryURL title="Python SWFL" link="https://www.meetup.com/pythonswfl/" />
-            <StaryURL title="VR & AR of Southwest Florida" link="https://www.meetup.com/vrarswfl/" />
-            <StaryURL title="SWFL Hackerspace" link="https://www.meetup.com/swfl-hackerspace/" />
-            <StaryURL title="SWFL Tech Nights" link="https://www.meetup.com/swfltechnights/" />
-            <StaryURL title="Music Producers of SWFL" link="https://www.facebook.com/musicproducers.swfl" />
+              <StaryURL title="SWFL Coders" link="https://www.meetup.com/swfl-coders/" />
+              <StaryURL title="SWFL Sec" link="https://www.meetup.com/SWFLSec-Southwest-Florida-Infosec-Meetup/" />
+              <StaryURL title="Python SWFL" link="https://www.meetup.com/pythonswfl/" />
+              <StaryURL title="VR & AR of Southwest Florida" link="https://www.meetup.com/vrarswfl/" />
+              <StaryURL title="SWFL Hackerspace" link="https://www.meetup.com/swfl-hackerspace/" />
+              <StaryURL title="SWFL Tech Nights" link="https://www.meetup.com/swfltechnights/" />
+              <StaryURL title="Music Producers of SWFL" link="https://www.facebook.com/musicproducers.swfl" />
             </b>
           </p>
           <p>
@@ -46,16 +45,14 @@ export default function Home() {
           <div className="flex justify-center">
             <a target="_blank" href="https://www.meetup.com/TechAllianceSWFL/" rel="noopener noreferrer">
               <p>Join us!</p>
-              <Image className='inline' src="/meetup.svg" alt="Meetup logo" width={40} height={40} />
+              <Image className="inline" src="/meetup.svg" alt="Meetup logo" width={40} height={40} />
             </a>
           </div>
         </div>
-        <div className={styles.grid}>
-          <>
-            {groups.map(group => (
-              <Card key={group.id} {...group} />
-            ))}
-          </>
+        <div className="flex flex-wrap items-start justify-center h-full">
+          {groups.map(group => (
+            <Card key={group.id} {...group} />
+          ))}
         </div>
       </main>
     </div>

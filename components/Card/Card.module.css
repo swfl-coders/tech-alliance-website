@@ -1,13 +1,15 @@
-.card {
+/* .card {
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
   word-break: break-word;
   border: 2px solid #eaeaea;
   border-radius: 10px;
+
   transition: color 0.15s ease, border-color 0.15s ease;
+
   width: 45%;
-}
+} */
 
 .card:hover,
 .card:focus,
