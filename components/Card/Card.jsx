@@ -1,6 +1,5 @@
 import React from 'react';
 import dynamic from 'next/dynamic';
-import styles from './Card.module.css';
 
 const SocialIcon = dynamic(() => import('react-social-icons').then((mod) => mod.SocialIcon), {
   ssr: false,
@@ -18,7 +17,6 @@ const Card = ({ facebookLink, githubLink, groupName, groupLink, groupDescription
       <br />
       <p className="m-0 text-base leading-normal md:text-xl">{meetingDate}</p>
       <br />
-      {/* w-72 md:w-full */}
       <div className="flex justify-stretch">
         <SocialIcon target="_blank" url={groupLink} />
         {facebookLink && <SocialIcon className="ml-2" target="_blank" url={facebookLink} />}
