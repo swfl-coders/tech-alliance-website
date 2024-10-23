@@ -37,7 +37,7 @@ function classNames(...classes) {
 
 export default function Navigation() {
   return (
-    <Disclosure as="nav" className="sticky top-0 z-40 bg-white shadow">
+    <Disclosure as="nav" className="sticky top-0 z-40 bg-white shadow border-b-2 border-blue-400">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
