@@ -14,12 +14,12 @@ const Card = ({ facebookLink, githubLink, groupName, groupLink, groupDescription
       <br />
       <p>{meetingDate}</p>
       <br />
-      <SocialIcon target="_blank" url={groupLink} />
-      {facebookLink && <SocialIcon className="ml-2" target="_blank" url={facebookLink} />}
-      {instagramLink && <SocialIcon className="ml-2" target="_blank" url={instagramLink} />}
-      {xLink && <SocialIcon className="ml-2" target="_blank" url={xLink} />}
-      {linkedinLink && <SocialIcon className="ml-2" target="_blank" url={linkedinLink} />}
-      {githubLink && <SocialIcon className="ml-2" target="_blank" url={githubLink} />}
+      <SocialIcon className="hover:drop-shadow-[0_2px_7px_rgba(0,0,0,0.5)]" target="_blank" url={groupLink} />
+      {facebookLink && <SocialIcon className="ml-2 hover:drop-shadow-[0_2px_7px_rgba(0,0,0,0.5)]" target="_blank" url={facebookLink} />}
+      {instagramLink && <SocialIcon className="ml-2 hover:drop-shadow-[0_2px_7px_rgba(0,0,0,0.5)]" target="_blank" url={instagramLink} />}
+      {xLink && <SocialIcon className="ml-2 hover:drop-shadow-[0_2px_7px_rgba(0,0,0,0.5)]" target="_blank" url={xLink} />}
+      {linkedinLink && <SocialIcon className="ml-2 hover:drop-shadow-[0_2px_7px_rgba(0,0,0,0.5)]" target="_blank" url={linkedinLink} />}
+      {githubLink && <SocialIcon className="ml-2 hover:drop-shadow-[0_2px_7px_rgba(0,0,0,0.5)]" target="_blank" url={githubLink} />}
       <br />
     </a>
   )
