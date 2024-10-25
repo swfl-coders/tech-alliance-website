@@ -6,7 +6,6 @@ import StaryURL from '../components/StaryURL/StaryURL'
 import { groups } from '../utils/config'
 import Logos from '../components/Logos/Logos';
 
-
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -18,6 +17,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.about}>
+          <img src="/images/logo.png" alt="" className="mx-auto mb-12" />
           <p>
             We are a collective of technology groups and industry leaders dedicated to fostering innovation, promoting
             technology education, and driving the growth of technology in the Southwest Florida region.
@@ -46,7 +46,7 @@ export default function Home() {
             <a target="_blank" href="https://www.meetup.com/TechAllianceSWFL/" rel="noopener noreferrer">
               <p>Join us!</p>
               <Image className="inline" src="/meetup.svg" alt="Meetup logo" width={40} height={40} />
-            </a>
+             </a>
           </div>
         </div>
         <div className="flex flex-wrap items-start justify-center h-full">

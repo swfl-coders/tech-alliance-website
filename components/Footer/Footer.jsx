@@ -52,6 +52,10 @@ const Footer = () => {
             <Image 
               src="/images/socials/ig-icon.png"
               alt="Instagram Logo"
+          <a href="https://discord.gg/G5UR26qAbT" target="_blank" rel="noreferrer">
+            <Image 
+              src="/images/socials/dis-icon.png"
+              alt="Discord Logo"
               width={40}
               height={40}
             />
