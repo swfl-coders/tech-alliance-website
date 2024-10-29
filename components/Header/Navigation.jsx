@@ -37,7 +37,7 @@ function classNames(...classes) {
 
 export default function Navigation() {
   return (
-    <Disclosure as="nav" className="sticky top-0 z-40 bg-white shadow border-b-2 border-blue-400">
+    <Disclosure as="nav" className="sticky top-0 z-40 bg-white shadow-xl border-b-[10px] border-[#358aca]">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -57,7 +57,7 @@ export default function Navigation() {
                 height={50}
                 width={200}
                 objectFit="contain"
-                className="h-8 w-auto"
+                className="h-12 w-auto"
               />
             </div>
             <div className="hidden sm:ml-6 sm:block">
