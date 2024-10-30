@@ -46,10 +46,10 @@ export default function Home() {
             <a target="_blank" href="https://www.meetup.com/TechAllianceSWFL/" rel="noopener noreferrer">
               <p>Join us!</p>
               <Image className="inline" src="/meetup.svg" alt="Meetup logo" width={40} height={40} />
-             </a>
+            </a>
           </div>
         </div>
-        <div className="flex flex-wrap items-start justify-center h-full">
+        <div className="grid gap-4 grid-cols-1 items-start justify-center lg:grid-cols-2 grid-rows-[auto_1fr_auto_auto_auto]">
           {groups.map(group => (
             <Card key={group.id} {...group} />
           ))}
