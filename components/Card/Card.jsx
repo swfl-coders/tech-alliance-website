@@ -1,5 +1,6 @@
 import React from 'react'
 import dynamic from 'next/dynamic'
+import CardDescription from '../CardDescription/CardDescription'
 
 const SocialIcon = dynamic(() => import('react-social-icons').then(mod => mod.SocialIcon), {
   ssr: false,
@@ -21,12 +22,7 @@ const Card = ({
       <a href={groupLink} className="text-left md:w-72 lg:w-2/5 ">
         <h2 className="text-lg md:h-12 lg:h-auto md:text-xl text-tech-blue">{groupName} &rarr;</h2>
       </a>
-        <p className="text-base line-clamp-2 h-14 md:text-lg">
-          {groupDescription}
-        </p>
-        {/* <button className="text-tech-blue">Show more</button>
-        <button className="hidden text-tech-blue">Show less</button> */}
-
+      <CardDescription groupDescription={groupDescription} />
       <p className="text-base leading-normal md:text-lg">{meetingDate}</p>
       <div className="grid justify-start grid-flow-col">
         <SocialIcon target="_blank" url={groupLink} />
