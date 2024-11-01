@@ -8,7 +8,7 @@ const CardDescription = ({ groupDescription }) => {
       <p className={`text-base ${readMore ? 'whitespace-normal': 'line-clamp-2'} md:text-lg`}>
         {groupDescription}
       </p>
-      <button onClick={() => setReadMore(!readMore)} className="text-tech-blue click:hidden peer">
+      <button onClick={() => setReadMore(!readMore)} className="text-tech-blue">
         {!readMore ? 'Show more' : 'Show less'}
       </button>
     </>
