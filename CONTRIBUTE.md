@@ -26,7 +26,7 @@ Please visit our [issues page](https://github.com/swfl-coders/tech-alliance-webs
 1. You will need to 'Fork' this repository to your account
 2. Next you will need to 'Clone' your fork to your computer
 2. To sync the latest from the upstream (swflcoders project)
-    * Add upstream: `git remote add upstream https://github.com/whoever/whatever.git`
+    * Add upstream: `git remote add upstream git@github.com:swfl-coders/tech-alliance-website.git`
     * Get latest from upstream: `git fetch upstream`
     * Checkout main branch: `git checkout main`
     * Bring in latest changes from upstream into your main branch: `git rebase upstream/main`
