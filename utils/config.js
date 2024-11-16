@@ -1,11 +1,11 @@
 export const groups = [
   {
     id: 1,
-    groupName: 'Music Producers of Southwest Florida',
+    groupName: 'Music Makers of Southwest Florida',
     groupDescription:
-      "Welcome to the Music Producers of Southwest Florida, where the beats of the Gulf meet a community of passionate music makers, artists, creators, and enthusiasts! Our group is dedicated to bringing together individuals with varying levels of experience, from seasoned producers to those eager to learn the art of creating music. Our main goal is to provide a platform for music enthusiasts to connect, collaborate, and enhance their music production skills. Whether you're already experienced in the field or just starting your journey, our doors are wide open for you to join, learn, and grow alongside fellow enthusiasts.",
+      "Welcome to the Music Makers of Southwest Florida, where the beats of the Gulf meet a community of passionate music makers, artists, creators, and enthusiasts! Our group is dedicated to bringing together individuals with varying levels of experience, from seasoned producers to those eager to learn the art of creating music. Our main goal is to provide a platform for music enthusiasts to connect, collaborate, and enhance their music production skills. Whether you're already experienced in the field or just starting your journey, our doors are wide open for you to join, learn, and grow alongside fellow enthusiasts.",
     meetingDate: 'Meets the 1st Thursday of odd-numbered months',
-    groupLink: 'https://www.meetup.com/music-producers-of-swfl/',
+    groupLink: 'https://www.meetup.com/music-makers-of-southwest-florida/',
     facebookLink: 'https://www.facebook.com/musicproducers.swfl',
     instagramLink: 'https://www.instagram.com/musicproducers_swfl/',
   },

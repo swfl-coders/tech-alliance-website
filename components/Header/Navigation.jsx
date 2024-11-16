@@ -14,7 +14,7 @@ const navigation = [
       { name: 'Python SWFL', href: 'https://www.meetup.com/pythonswfl/' },
       { name: 'SWFL Hackerspace', href: 'https://www.meetup.com/swfl-hackerspace/' },
       { name: 'SWFL Tech Nights', href: 'https://www.meetup.com/swfltechnights/' },
-      { name: 'Music Producers SWFL', href: 'https://www.facebook.com/musicproducers.swfl' },
+      { name: 'Music Makers SWFL', href: 'https://www.meetup.com/music-makers-of-southwest-florida/' },
       { name: 'AR & VR SWFL', href: 'https://www.meetup.com/vrarswfl/' },
     ],
   },
