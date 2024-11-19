@@ -27,11 +27,6 @@ const Footer = () => {
           </a>
         </div>
         <div className={styles.logos}>
-          <a>
-            <Image src="/images/socials/ig-icon.png" alt="Instagram Logo" width={40} height={40} />
-          </a>
-        </div>
-        <div className={styles.logos}>
           <a href="https://www.youtube.com/@techallianceswfl" target="_blank" rel="noreferrer">
             <Image src="/images/socials/yt-icon.png" alt="Youtube Logo" width={40} height={40} />
           </a>
