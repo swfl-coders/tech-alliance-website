@@ -1,6 +1,8 @@
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
+import { useState } from 'react'
+import Calendar from './Calendar'
 
 // todo: add links to pages when ready
 const navigation = [
@@ -17,6 +19,11 @@ const navigation = [
       { name: 'Music Makers SWFL', href: 'https://www.meetup.com/music-makers-of-southwest-florida/' },
       { name: 'AR & VR SWFL', href: 'https://www.meetup.com/vrarswfl/' },
     ],
+  },
+  {
+    name: 'Calendar',
+    href: '#',
+    current: true, 
   },
   // {
   //   name: 'Speakers',
@@ -36,7 +43,14 @@ function classNames(...classes) {
 }
 
 export default function Navigation() {
+  const [showCalendar, setShowCalendar] = useState(false);
+
+  const handleCalendarClick = () => {
+    setShowCalendar(true);
+  }
+  
   return (
+    <>
     <Disclosure as="nav" className="sticky top-0 z-40 bg-white shadow-xl border-b-[10px] border-[#358aca]">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center">
@@ -66,7 +80,10 @@ export default function Navigation() {
                   return (
                     <Menu as="div" key={menuItem.name} className="relative ml-3">
                       <div>
-                        <MenuButton className="rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white  ">
+                        <MenuButton 
+                        className="rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white"
+                        onClick = {menuItem.name === 'Calendar' ? handleCalendarClick : null}
+                        >
                           <a
                             href="#"
                             className="rounded-md px-3 py-2 text-sm font-medium text-gray-600 hover:text-white">
@@ -112,7 +129,9 @@ export default function Navigation() {
                   className={classNames(
                     item.current ? 'bg-gray-900 text-white' : 'text-gray-600 hover:bg-gray-700 hover:text-white',
                     'block rounded-md px-3 py-2 text-base font-medium',
-                  )}>
+                  )}
+                  onClick = {item.name === 'Calendar' ? handleCalendarClick : null}
+                  >
                   {item.name}
                 </DisclosureButton>
                 {item.sub_links && (
@@ -133,5 +152,7 @@ export default function Navigation() {
         </div>
       </DisclosurePanel>
     </Disclosure>
+    {showCalendar && <Calendar />}
+    </>
   )
 }
