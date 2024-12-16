@@ -29,12 +29,14 @@ export default function SocialButtons() {
                     <p className="text-md w-56 md:text-xl lg:text-2xl">Join us on Meetup</p>
                   </div>
                 </a>
-                <a target="_blank" href="https://discord.com/invite/G5UR26qAbT" rel="noopener noreferrer">
-                  <div 
-                  className="group flex items-center w-fit h-fit gap-2 border-2 border-white rounded-t-full rounded-b-full py-2 px-4 shadow-[0_4px_13px_-5px_rgba(0,0,0,0.3)] hover:bg-[#358aca] hover:text-white hover:border-[#358aca]"
-                  onMouseEnter={() => setHoveredButton('discord')}
-                  onMouseLeave={() => setHoveredButton(null)}
-                  >
+                <a 
+                target="_blank"
+                href="https://discord.com/invite/G5UR26qAbT" 
+                rel="noopener noreferrer"
+                onMouseEnter={() => setHoveredButton('discord')}
+                onMouseLeave={() => setHoveredButton(null)}
+                >
+                  <div className="group flex items-center w-fit h-fit gap-2 border-2 border-white rounded-t-full rounded-b-full py-2 px-4 shadow-[0_4px_13px_-5px_rgba(0,0,0,0.3)] hover:bg-[#358aca] hover:text-white hover:border-[#358aca]">
                     <Image 
                     src={hoveredButton === 'discord' ? 
                         '/images/socials/dis-icon.png' 
