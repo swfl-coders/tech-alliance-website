@@ -16,7 +16,7 @@ export default function SocialButtons() {
                 onMouseEnter={() => setHoveredButton('meetup')}
                 onMouseLeave={() => setHoveredButton(null)}
                 >
-                  <div className="group flex items-center w-fit h-fit gap-2 border-2 border-[#358aca] rounded-t-full rounded-b-full py-2 px-4 shadow-[0_4px_13px_-5px_rgba(0,0,0,0.8)] hover:bg-[#358aca] hover:text-white hover:border-[#358aca]">
+                  <div className="group flex items-center w-fit h-fit gap-2 border-4 border-[#358aca] rounded-t-full rounded-b-full py-2 px-4 shadow-[0_6px_13px_-5px_rgba(0,0,0,0.3)] hover:bg-[#358aca] hover:text-white hover:border-[#358aca]">
                     <Image 
                         src={hoveredButton === 'meetup' ? 
                             '/images/socials/mu-icon-white.png' 
@@ -31,7 +31,7 @@ export default function SocialButtons() {
                 </a>
                 <a target="_blank" href="https://discord.com/invite/G5UR26qAbT" rel="noopener noreferrer">
                   <div 
-                  className="group flex items-center w-fit h-fit gap-2 border-2 border-[#358aca] rounded-t-full rounded-b-full py-2 px-4 shadow-[0_4px_13px_-5px_rgba(0,0,0,0.8)] hover:bg-[#358aca] hover:text-white hover:border-[#358aca]"
+                  className="group flex items-center w-fit h-fit gap-2 border-4 border-[#358aca] rounded-t-full rounded-b-full py-2 px-4 shadow-[0_6px_13px_-5px_rgba(0,0,0,0.3)] hover:bg-[#358aca] hover:text-white hover:border-[#358aca]"
                   onMouseEnter={() => setHoveredButton('discord')}
                   onMouseLeave={() => setHoveredButton(null)}
                   >
