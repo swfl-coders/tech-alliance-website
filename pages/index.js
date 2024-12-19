@@ -5,6 +5,7 @@ import Card from '../components/Card/Card'
 import StaryURL from '../components/StaryURL/StaryURL'
 import { groups } from '../utils/config'
 import Logos from '../components/Logos/Logos';
+import SocialButtons from '../components/Buttons/SocialButtons';
 
 export default function Home() {
   return (
@@ -40,14 +41,7 @@ export default function Home() {
           <p className="mb-4">
             We host community events that are free and open to everyone. These events are held at the Collaboratory in Downtown Fort Myers, offering a welcoming space for individuals and organizations to connect and share our passion for technology.
           </p>
-          <div className="flex justify-center">
-            <a target="_blank" href="https://www.meetup.com/TechAllianceSWFL/" rel="noopener noreferrer">
-              <p className="mb-4">
-                Become a part of our community!
-              </p>
-              <Image className="inline" src="/meetup.svg" alt="Meetup logo" width={40} height={40} />
-            </a>
-          </div>
+          <SocialButtons />
         </div>
         <div className="grid gap-4 grid-cols-1 items-start justify-center lg:grid-cols-2 grid-rows-[auto_1fr_auto_auto_auto]">
           {groups.map(group => (
