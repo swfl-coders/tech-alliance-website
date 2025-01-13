@@ -30,7 +30,7 @@
     "jsdom": "^25.0.1",
     "postcss": "^8.4.47",
     "prettier": "^3.3.3",
-    "tailwindcss": "^3.4.14",
+    "tailwindcss": "^3.4.17",
     "vitest": "^2.1.2"
   }
 }
