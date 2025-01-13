@@ -18,11 +18,10 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.about}>
           <img src="/images/logo.png" alt="" className="mx-auto mb-12" />
-          <p>
+          <p className="mb-4">
             We are a coalition of technology groups and industry leaders dedicated to fostering innovation, promoting
             technology education, and driving technological growth in the Southwest Florida region.
           </p>
-          <br></br>
           <p className="mb-4">
             We are a non-profit, non-partisan organization.
           </p>
