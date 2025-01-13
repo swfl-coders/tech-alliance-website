@@ -4,7 +4,7 @@ export const groups = [
     groupName: 'Music Makers of Southwest Florida',
     groupDescription:
       "Welcome to the Music Makers of Southwest Florida, where the beats of the Gulf meet a community of passionate music makers, artists, creators, and enthusiasts! Our group is dedicated to bringing together individuals with varying levels of experience, from seasoned producers to those eager to learn the art of creating music. Our main goal is to provide a platform for music enthusiasts to connect, collaborate, and enhance their music production skills. Whether you're already experienced in the field or just starting your journey, our doors are wide open for you to join, learn, and grow alongside fellow enthusiasts.",
-    meetingDate: 'Meets the 1st Thursday of odd-numbered months',
+    meetingDate: 'Meets the first Thursday of odd-numbered months',
     groupLink: 'https://www.meetup.com/music-makers-of-southwest-florida/',
     facebookLink: 'https://www.facebook.com/musicproducers.swfl',
     instagramLink: 'https://www.instagram.com/musicproducers_swfl/',
@@ -24,7 +24,7 @@ export const groups = [
     groupName: 'SWFL Coders',
     groupDescription:
       'SWFL Coders is a group for techies, developers, coders and non-coders, who wish to learn more about the fantastic world of programming. Our meetings are held twice a month, one at our official home the Collaboratory in Downtown Fort Myers and the other one in Naples or Bonita Springs.',
-    meetingDate: 'Meets the 2nd Thursday of each month',
+    meetingDate: 'Meets the second Thursday of each month',
     groupLink: 'https://www.meetup.com/SWFL-Coders',
     facebookLink: 'https://www.facebook.com/SWFLCoders',
     xLink: 'https://twitter.com/SWFLCoders',
@@ -47,7 +47,7 @@ export const groups = [
     groupName: 'SWFL Sec - Southwest Florida Infosec Meetup',
     groupDescription:
       "The mission of SWFLSec is to provide a free, vendor-neutral forum for the expansion and dissemination of industry knowledge, to extend the culture of security awareness, and enable members to make informed, and educated security decisions. SWFLSec runs on attendee participation. If you've built, broken, or discovered something cool, please consider sharing with the group.",
-    meetingDate: 'Meets the 3rd Tuesday of each month',
+    meetingDate: 'Meets the third Tuesday of each month',
     groupLink: 'https://www.meetup.com/SWFLSec-Southwest-Florida-Infosec-Meetup/',
     facebookLink: 'https://www.facebook.com/swflsec',
     xLink: 'https://twitter.com/SWFLSec',
@@ -59,7 +59,7 @@ export const groups = [
     groupName: 'VR & AR of Southwest Florida',
     groupDescription:
       'Our group welcomes VR/AR creators and enthusiasts of Southwest Florida and beyond! We welcome everyone, including innovators, developers, inventors, storytellers, content producers, entrepreneurs, hackers, programmers, pioneers, and adventurers. Join us to be in touch with ARVR news, events and learn something new to get your development to the next level.',
-    meetingDate: 'Meets the 1st Thursday of each month',
+    meetingDate: 'Meets the first Thursday of each month',
     groupLink: 'https://www.meetup.com/vrarswfl',
     facebookLink: 'https://www.facebook.com/VRARSWFL/',
     xLink: 'https://twitter.com/VRARSWFL',

@@ -18,32 +18,33 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.about}>
           <img src="/images/logo.png" alt="" className="mx-auto mb-12" />
-          <p>
-            We are a collective of technology groups and industry leaders dedicated to fostering innovation, promoting
-            technology education, and driving the growth of technology in the Southwest Florida region.
+          <p className="mb-4">
+            We are a coalition of technology groups and industry leaders dedicated to fostering innovation, promoting
+            technology education, and driving technological growth in the Southwest Florida region.
           </p>
-          <p>We are non-profit, non-partisan.</p>
-          <p>Our alliance comprises the following groups:</p>
-          <br></br>
+          <p className="mb-4">
+            We are a non-profit, non-partisan organization.
+          </p>
+          <p>Our alliance includes the following groups:</p>
           <Logos />
-          <p>
+          <p className="mb-4">
             <b style={{ color: '#358aca' }}>
-              <StaryURL title="SWFL Coders" link="https://www.meetup.com/swfl-coders/" />
               <StaryURL title="SWFL Sec" link="https://www.meetup.com/SWFLSec-Southwest-Florida-Infosec-Meetup/" />
-              <StaryURL title="Python SWFL" link="https://www.meetup.com/pythonswfl/" />
-              <StaryURL title="VR & AR of Southwest Florida" link="https://www.meetup.com/vrarswfl/" />
-              <StaryURL title="SWFL Hackerspace" link="https://www.meetup.com/swfl-hackerspace/" />
               <StaryURL title="Music Makers of SWFL" link="https://www.meetup.com/music-makers-of-southwest-florida/" />
+              <StaryURL title="VR & AR of Southwest Florida" link="https://www.meetup.com/vrarswfl/" />
+              <StaryURL title="SWFL Coders" link="https://www.meetup.com/swfl-coders/" />
+              <StaryURL title="Python SWFL" link="https://www.meetup.com/pythonswfl/" />
+              <StaryURL title="SWFL Hackerspace" link="https://www.meetup.com/swfl-hackerspace/" />
             </b>
           </p>
-          <p>
-            Our community events are held quarterly, free of charge, and are open to all. We gather at Collaboratory in
-            Downtown Fort Myers, providing a welcoming space for individuals and organizations to come together and
-            share in our passion for technology.
+          <p className="mb-4">
+            We host community events that are free and open to everyone. These events are held at the Collaboratory in Downtown Fort Myers, offering a welcoming space for individuals and organizations to connect and share our passion for technology.
           </p>
           <div className="flex justify-center">
             <a target="_blank" href="https://www.meetup.com/TechAllianceSWFL/" rel="noopener noreferrer">
-              <p>Join us!</p>
+              <p className="mb-4">
+                Become a part of our community!
+              </p>
               <Image className="inline" src="/meetup.svg" alt="Meetup logo" width={40} height={40} />
             </a>
           </div>
