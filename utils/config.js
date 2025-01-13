@@ -55,17 +55,6 @@ export const groups = [
     instagramLink: 'https://www.instagram.com/swflsec/',
   },
   {
-    id: 6,
-    groupName: 'SWFL Tech Nights',
-    groupDescription:
-      'SWFL Tech Nights organizes live speaking events (online and in person) and projects on a variety of tech topics revolving around Southwest Florida. The goal is to provide a learning environment to those who want to get involved in the technology field. A large portion of our members are youth and faculty from local schools and universities related to tech careers. We also have a large representation of members from local businesses and organizations.',
-    meetingDate: 'Meets the 4th Tuesday of each month',
-    groupLink: 'https://www.meetup.com/swfltechnights/',
-    facebookLink: 'https://www.facebook.com/swfltechnights',
-    xLink: 'https://twitter.com/swfltechnights/',
-    linkedinLink: 'https://www.linkedin.com/company/swfltechnights/',
-  },
-  {
     id: 7,
     groupName: 'VR & AR of Southwest Florida',
     groupDescription:

@@ -6,13 +6,6 @@ export default function Logos() {
         <div className="space-y-2 flex flex-col max-h-max max-w-full mb-5">
           <div className="flex flex-col content-center items-center space-y-4">
         <div className="grid grid-cols-2 gap-y-4 gap-x-10 max-w-screen align-center sm:hidden">
-            <Image 
-            className="max-w-24"
-            src='/images/logos/swfltn.png'
-            alt ='SWFL Tech Nights'
-            width={500}
-            height={500}
-            /> 
 
             <Image 
             className="max-w-20"
