@@ -27,7 +27,11 @@ const navigation = [
   //   ],
   // },
   // { name: 'Partners', href: '#', current: false, sub_links: [{ name: 'Contact Us', href: '#' }] },
-  // { name: 'Calendar', href: '#', current: false },
+   { name: 'Calendar', href: '#', current: false,
+    sub_links: [
+      {name:'Tech Alliance Calendar', href:'../../pages/calendar'}
+    ]
+    },
 ]
 
 function classNames(...classes) {
