@@ -16,7 +16,8 @@ const navigation = [
       { name: 'Music Makers SWFL', href: 'https://www.meetup.com/music-makers-of-southwest-florida/' },
       { name: 'AR & VR SWFL', href: 'https://www.meetup.com/vrarswfl/' },
     ],
-  },
+  }, 
+  { name: 'Calendar', href: '/calendar', current: false},
   // {
   //   name: 'Speakers',
   //   href: '#',
@@ -27,11 +28,6 @@ const navigation = [
   //   ],
   // },
   // { name: 'Partners', href: '#', current: false, sub_links: [{ name: 'Contact Us', href: '#' }] },
-   { name: 'Calendar', href: '#', current: false,
-    sub_links: [
-      {name:'Tech Alliance Calendar', href:'../../pages/calendar'}
-    ]
-    },
 ]
 
 function classNames(...classes) {
@@ -71,7 +67,7 @@ export default function Navigation() {
                       <div>
                         <MenuButton className="rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white  ">
                           <a
-                            href="#"
+                            href={menuItem.href}
                             className="rounded-md px-3 py-2 text-sm font-medium text-gray-600 hover:text-white">
                             {menuItem.name}
                           </a>
