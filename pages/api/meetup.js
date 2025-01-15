@@ -12,14 +12,13 @@ export default function Meetups() {
     "https://api.meetup.com/SWFL-Coders/events",
     "https://api.meetup.com/swfl-hackerspace",
     "https://api.meetup.com/SWFLSec-Southwest-Florida-Infosec-Meetup",
-    "https://api.meetup.com/swfltechnights",
     "https://api.meetup.com/vrarswfl",
   ];
 
   useEffect(() => {
     const fetchMeetups = async () => {
       const allMeetups = await Promise.all(meetupUrls.map(url => fetchMeetupData(url)));
-      const mergedMeetups = allMeetups.flat(); // flatten the array of arrays   
+      const mergedMeetups = allMeetups.flat(); // flatten the array of arrays
       setMeetups(mergedMeetups);
     };
     fetchMeetups();
