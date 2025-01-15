@@ -18,7 +18,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.about}>
-          <img src="/images/logo.png" alt="" className="mx-auto mb-12" />
+          <img src="/images/logo.png" alt="" className="mx-auto mb-8" />
           <p className="mb-4">
             We are a coalition of technology groups and industry leaders dedicated to fostering innovation, promoting
             technology education, and driving technological growth in the Southwest Florida region.
@@ -26,7 +26,7 @@ export default function Home() {
           <p className="mb-4">
             We are a non-profit, non-partisan organization.
           </p>
-          <p>Our alliance includes the following groups:</p>
+          <p className="mb-4">Our alliance includes the following groups:</p>
           <Logos />
           <p className="mb-4">
             <b style={{ color: '#358aca' }}>
@@ -42,6 +42,13 @@ export default function Home() {
             We host community events that are free and open to everyone. These events are held at the Collaboratory in Downtown Fort Myers, offering a welcoming space for individuals and organizations to connect and share our passion for technology.
           </p>
           <SocialButtons />
+          <div className="flex justify-center">
+            <a target="_blank" href="https://www.meetup.com/TechAllianceSWFL/" rel="noopener noreferrer">
+              <p className="mb-4">
+                Become a part of our community!
+              </p>
+            </a>
+          </div>
         </div>
         <div className="grid gap-4 grid-cols-1 items-start justify-center lg:grid-cols-2 grid-rows-[auto_1fr_auto_auto_auto]">
           {groups.map(group => (
