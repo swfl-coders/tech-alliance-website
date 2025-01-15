@@ -11,6 +11,9 @@ module.exports = {
         'white-border': '#eaeaea',
         'tech-blue': '#358aca',
       },
+      maxWidth: {
+        '30': '120px',
+      },
       boxShadow: {
         'card-shadow': '4px 4px 2px 1px tech-blue;',
       },
