@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 // todo: add links to pages when ready
 const navigation = [
-  { name: 'Home', href:'/', current: true },
+  { name: 'Home', href: '/', current: true },
   {
     name: 'Organizations',
     href: '#',
@@ -17,8 +17,8 @@ const navigation = [
       { name: 'Music Makers SWFL', href: 'https://www.meetup.com/music-makers-of-southwest-florida/' },
       { name: 'AR & VR SWFL', href: 'https://www.meetup.com/vrarswfl/' },
     ],
-  }, 
-  { name: 'Calendar', href: '/calendar', current: false},
+  },
+  { name: 'Calendar', href: '/calendar', current: false },
   // {
   //   name: 'Speakers',
   //   href: '#',
@@ -51,14 +51,19 @@ export default function Navigation() {
           </div>
           <div className="flex flex-1 items-center sm:justify-between justify-center sm:items-stretch">
             <div className="flex flex-shrink-0 items-center">
-              <Image
-                alt="Tech Alliance of SWFL"
-                src="/images/logo.png"
-                height={50}
-                width={200}
-                objectFit="contain"
-                className="h-12 w-auto"
-              />
+              <a
+              href="/"
+              >
+                <Image
+                  alt="Tech Alliance of SWFL"
+                  src="/images/logo.png"
+                  height={50}
+                  width={200}
+                  objectFit="contain"
+                  className="h-12 w-auto"
+                />
+              </a>
+
             </div>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
@@ -73,7 +78,7 @@ export default function Navigation() {
                             {menuItem.name}
                           </a>
                         </MenuButton>
-                        
+
                       </div>
                       {menuItem.sub_links && (
                         <MenuItems
