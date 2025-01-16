@@ -63,7 +63,6 @@ export default function Navigation() {
                   className="h-12 w-auto"
                 />
               </a>
-
             </div>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
@@ -78,7 +77,6 @@ export default function Navigation() {
                             {menuItem.name}
                           </a>
                         </MenuButton>
-
                       </div>
                       {menuItem.sub_links && (
                         <MenuItems
