@@ -1,9 +1,11 @@
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
+import Link from 'next/link'
 
 // todo: add links to pages when ready
 const navigation = [
+  { name: 'Home', href: '/', current: true },
   {
     name: 'Organizations',
     href: '#',
@@ -17,6 +19,7 @@ const navigation = [
       { name: 'AR & VR SWFL', href: 'https://www.meetup.com/vrarswfl/' },
     ],
   },
+  { name: 'Calendar', href: '/calendar', current: false },
   // {
   //   name: 'Speakers',
   //   href: '#',
@@ -27,7 +30,6 @@ const navigation = [
   //   ],
   // },
   // { name: 'Partners', href: '#', current: false, sub_links: [{ name: 'Contact Us', href: '#' }] },
-  // { name: 'Calendar', href: '#', current: false },
 ]
 
 function classNames(...classes) {
@@ -50,14 +52,18 @@ export default function Navigation() {
           </div>
           <div className="flex flex-1 items-center sm:justify-between justify-center sm:items-stretch">
             <div className="flex flex-shrink-0 items-center">
-              <Image
-                alt="Tech Alliance of SWFL"
-                src="/images/logo.png"
-                height={50}
-                width={200}
-                objectFit="contain"
-                className="h-12 w-auto"
-              />
+              <Link
+              href="/"
+              >
+                <Image
+                  alt="Tech Alliance of SWFL"
+                  src="/images/logo.png"
+                  height={50}
+                  width={200}
+                  objectFit="contain"
+                  className="h-12 w-auto"
+                />
+              </Link>
             </div>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
@@ -65,9 +71,9 @@ export default function Navigation() {
                   return (
                     <Menu as="div" key={menuItem.name} className="relative ml-3">
                       <div>
-                        <MenuButton className="rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white  ">
+                        <MenuButton className="rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white" {...(menuItem?.sub_links === undefined ? { disabled: true } : {})}>
                           <a
-                            href="#"
+                            href={menuItem.href}
                             className="rounded-md px-3 py-2 text-sm font-medium text-gray-600 hover:text-white">
                             {menuItem.name}
                           </a>
