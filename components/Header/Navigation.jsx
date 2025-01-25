@@ -71,7 +71,7 @@ export default function Navigation() {
                   return (
                     <Menu as="div" key={menuItem.name} className="relative ml-3">
                       <div>
-                        <MenuButton className="rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white " {...(menuItem?.sub_links === undefined ? { disabled: true } : {})}>
+                        <MenuButton className="rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white" {...(menuItem?.sub_links === undefined ? { disabled: true } : {})}>
                           <a
                             href={menuItem.href}
                             className="rounded-md px-3 py-2 text-sm font-medium text-gray-600 hover:text-white">
