@@ -1,6 +1,7 @@
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
+import Link from 'next/link'
 
 // todo: add links to pages when ready
 const navigation = [
@@ -51,7 +52,7 @@ export default function Navigation() {
           </div>
           <div className="flex flex-1 items-center sm:justify-between justify-center sm:items-stretch">
             <div className="flex flex-shrink-0 items-center">
-              <a
+              <Link
               href="/"
               >
                 <Image
@@ -62,7 +63,7 @@ export default function Navigation() {
                   objectFit="contain"
                   className="h-12 w-auto"
                 />
-              </a>
+              </Link>
             </div>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
