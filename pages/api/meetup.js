@@ -7,7 +7,7 @@ export default function Meetups() {
   const [meetups, setMeetups] = useState(null)
   const meetupUrls = [
     "https://api.meetup.com/SWFL-Coders/events",
-    "https://api.meetup.com//music-producers-of-swfl",
+    "https://api.meetup.com/music-makers-of-southwest-florida/",
     "https://api.meetup.com/pythonswfl",
     "https://api.meetup.com/SWFL-Coders/events",
     "https://api.meetup.com/swfl-hackerspace",

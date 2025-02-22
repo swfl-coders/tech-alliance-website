@@ -18,7 +18,7 @@ export default function Logos() {
               <Image
                 className="max-w-20 md:max-w-24 lg:max-w-32"
                 src='/images/logos/music-prod.png'
-                alt ='Music Producers of SWFL'
+                alt ='Music Makers of SWFL'
                 width={500}
                 height={500}
               />
