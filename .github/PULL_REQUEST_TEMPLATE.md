@@ -12,4 +12,4 @@
 
 ### Testing
 
-- [ ] *Provide steps to test your code*
+*Provide steps to test your code*
