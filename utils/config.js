@@ -36,7 +36,7 @@ export const groups = [
     groupName: 'SWFL Hackerspace',
     groupDescription:
       'Hackerspaces are places where tech geeks, experts and nerds meet up to talk, build, and hack technology. Join the Southwest Florida Hackerspace if you feel you can contribute to the group or want to learn more about technology.',
-    meetingDate: 'Meets every other Month on Saturdays',
+    meetingDate: 'Meets the second Tuesday of each month',
     groupLink: 'https://www.meetup.com/swfl-hackerspace/',
     facebookLink: 'https://www.facebook.com/groups/swflhackerspace',
     xLink: 'https://twitter.com/SWFLHackerspace',
