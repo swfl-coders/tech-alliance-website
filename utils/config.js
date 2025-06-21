@@ -14,7 +14,7 @@ export const groups = [
     groupName: 'Python SWFL',
     groupDescription:
       'Python SWFL is a volunteer-run interdisciplinary user group for exploration and experimentation with the Python programming language. Whether you are a seasoned software engineer or a complete beginner, all levels are welcome! ',
-    meetingDate: 'Meets the last Thursday of each month',
+    meetingDate: 'Meets the last Tuesday of each month',
     groupLink: 'https://www.meetup.com/pythonswfl',
     xLink: 'https://twitter.com/PythonSWFL',
     linkedinLink: 'https://www.linkedin.com/company/pythonswfl/',
