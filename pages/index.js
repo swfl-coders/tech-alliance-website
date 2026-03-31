@@ -31,7 +31,7 @@ export default function Home() {
           <p className="mb-4">
             <b style={{ color: '#358aca' }}>
               <StaryURL title="SWFL Sec" link="https://www.meetup.com/SWFLSec-Southwest-Florida-Infosec-Meetup/" />
-              <StaryURL title="Music Makers of SWFL" link="https://www.meetup.com/music-makers-of-southwest-florida/" />
+              <StaryURL title="Music Makers of SWFL" link="https://www.facebook.com/musicmakers.swfl/" />
               <StaryURL title="VR & AR of Southwest Florida" link="https://www.meetup.com/vrarswfl/" />
               <StaryURL title="SWFL Coders" link="https://www.meetup.com/swfl-coders/" />
               <StaryURL title="Python SWFL" link="https://www.meetup.com/pythonswfl/" />

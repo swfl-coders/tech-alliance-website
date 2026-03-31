@@ -25,7 +25,9 @@ const Card = ({
       <CardDescription groupDescription={groupDescription} />
       <p className="text-base leading-normal md:text-lg">{meetingDate}</p>
       <div className="grid justify-start grid-flow-col-dense">
-        <SocialIcon style={{ height: 45, width: 45 }} target="_blank" url={groupLink} />
+        {groupLink && (
+          <SocialIcon style={{ height: 45, width: 45 }} target="_blank" url={groupLink} />
+        )}
         {facebookLink && (
           <SocialIcon style={{ height: 45, width: 45 }} className="ml-2" target="_blank" url={facebookLink} />
         )}
