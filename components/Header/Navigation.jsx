@@ -15,7 +15,7 @@ const navigation = [
       { name: 'SWFLSec', href: 'https://www.meetup.com/SWFLSec-Southwest-Florida-Infosec-Meetup/' },
       { name: 'Python SWFL', href: 'https://www.meetup.com/pythonswfl/' },
       { name: 'SWFL Hackerspace', href: 'https://www.meetup.com/swfl-hackerspace/' },
-      { name: 'Music Makers SWFL', href: 'https://www.meetup.com/music-makers-of-southwest-florida/' },
+      { name: 'Music Makers SWFL', href: 'https://www.facebook.com/musicmakers.swfl' },
       { name: 'AR & VR SWFL', href: 'https://www.meetup.com/vrarswfl/' },
     ],
   },
