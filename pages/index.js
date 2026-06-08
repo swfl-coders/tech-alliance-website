@@ -34,7 +34,6 @@ export default function Home() {
               <StaryURL title="Music Makers of SWFL" link="https://www.facebook.com/musicmakers.swfl/" />
               <StaryURL title="VR & AR of Southwest Florida" link="https://www.meetup.com/vrarswfl/" />
               <StaryURL title="SWFL Coders" link="https://www.meetup.com/swfl-coders/" />
-              <StaryURL title="Python SWFL" link="https://www.meetup.com/pythonswfl/" />
               <StaryURL title="SWFL Hackerspace" link="https://www.meetup.com/swfl-hackerspace/" />
             </b>
           </p>
