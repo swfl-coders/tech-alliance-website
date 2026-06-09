@@ -32,6 +32,11 @@ const Footer = () => {
           </a>
         </div>
       </div>
+      <div style={{ textAlign: 'center', marginTop: '20px' }}>
+        <a href="https://docs.google.com/document/d/1yW9A9GLUiE3zwK3voJiZ0Bu18NT8A5a-LxHGb35fi9U/edit?tab=t.0#heading=h.rvqpi9ym5w2c" target="_blank" rel="noreferrer" style={{ color: 'white' }}>
+          Code of Conduct
+        </a>
+      </div>
       <div className={styles.copy}>
         Copyright © <span>{new Date().getFullYear()}</span> Tech Alliance of SWFL. All rights reserved.
       </div>
