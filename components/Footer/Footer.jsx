@@ -12,6 +12,16 @@ const Footer = () => {
           </a>
         </div>
         <div className={styles.logos}>
+          <a href="https://www.linkedin.com/company/tech-alliance-of-swfl/" target="_blank" rel="noreferrer">
+            <Image src="/images/socials/li-icon.png" alt="LinkedIn logo" width={40} height={40} />
+          </a>
+        </div>
+        <div className={styles.logos}>
+          <a href="https://discord.gg/G5UR26qAbT" target="_blank" rel="noreferrer">
+            <Image src="/images/socials/dis-icon.png" alt="Discord Logo" width={40} height={40} />
+          </a>
+        </div>
+        <div className={styles.logos}>
           <a href="https://www.facebook.com/techallianceswfl" target="_blank" rel="noreferrer">
             <Image src="/images/socials/fb-icon.png" alt="Facebook logo" width={40} height={40} />
           </a>
@@ -19,11 +29,6 @@ const Footer = () => {
         <div className={styles.logos}>
           <a href="https://twitter.com/tech_swfl" target="_blank" rel="noreferrer">
             <Image src="/images/socials/x-social.png" alt="X/Twitter Logo" width={40} height={40} />
-          </a>
-        </div>
-        <div className={styles.logos}>
-          <a href="https://discord.gg/G5UR26qAbT" target="_blank" rel="noreferrer">
-            <Image src="/images/socials/dis-icon.png" alt="Discord Logo" width={40} height={40} />
           </a>
         </div>
         <div className={styles.logos}>
@@ -45,4 +50,3 @@ const Footer = () => {
 }
 
 export default Footer
-
