@@ -7,7 +7,7 @@ import Link from 'next/link'
 const navigation = [
   { name: 'Home', href: '/', current: true },
   {
-    name: 'Organizations',
+    name: 'Groups',
     href: '#',
     current: true,
     sub_links: [
@@ -65,17 +65,16 @@ export default function Navigation() {
               </Link>
             </div>
             <div className="hidden sm:ml-6 sm:block">
-              <div className="flex space-x-4">
+              <div className="flex space-x-1">
                 {navigation.map(menuItem => {
-                  return (
-                    <Menu as="div" key={menuItem.name} className="relative ml-3">
+                  return (<Menu as="div" key={menuItem.name} className="relative">
                       <div>
-                        <MenuButton className="rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white" {...(menuItem?.sub_links === undefined ? { disabled: true } : {})}>
-                          <a
-                            href={menuItem.href}
-                            className="rounded-md px-3 py-2 text-sm font-medium text-gray-600 hover:text-white">
-                            {menuItem.name}
-                          </a>
+                        <MenuButton   
+                          as={menuItem?.sub_links ? 'button' : 'a'}
+                          href={menuItem?.sub_links ? undefined : menuItem.href}
+                          className="rounded-md px-10 py-2 font-medium text-base text-[#358aca] bg-transparent hover:bg-[#358aca] hover:text-white transition-colors duration-200 flex items-center justify-center"
+                          style={{ fontSize: '22px', fontFamily: 'Roboto, sans-serif' }}>
+                          {menuItem.name}
                         </MenuButton>
                       </div>
                       {menuItem.sub_links && (
