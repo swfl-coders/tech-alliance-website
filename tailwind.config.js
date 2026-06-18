@@ -19,6 +19,10 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+      'text-lg',
+      'text-xl',
+      'font-bold',
+  ],
 }
 
