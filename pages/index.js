@@ -18,13 +18,16 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.about}>
-          <img src="/images/logo.png" alt="" className="mx-auto mb-8" />
+          
+
+          <h1 className="font-normal mb-4 text-black" style={{ fontSize: '40px' }}>
+            Our Mission:
+          </h1>
+
           <p className="mb-4">
             We are a coalition of technology groups and industry leaders dedicated to fostering innovation, promoting
-            technology education, and driving technological growth in the Southwest Florida region.
-          </p>
-          <p className="mb-4">
-            We are a non-profit, non-partisan organization.
+            technology education, and driving technological growth in the Southwest Florida region. We are a
+            non-profit, non-partisan organization.
           </p>
           <p className="mb-4">Our alliance includes the following groups:</p>
           <Logos />
@@ -37,15 +40,19 @@ export default function Home() {
               <StaryURL title="SWFL Hackerspace" link="https://www.meetup.com/swfl-hackerspace/" />
             </b>
           </p>
+
+          <h2 className="font-normal mb-4" style={{ fontSize: '26px', color: '#000000' }}>
+            Join us and become a part of our community!
+          </h2>
+
           <p className="mb-4">
-            We host community events that are free and open to everyone. These events are held at the Collaboratory in Downtown Fort Myers, offering a welcoming space for individuals and organizations to connect and share our passion for technology.
+            We host community events that are free and open to everyone. These events are held at the Collaboratory
+            in Downtown Fort Myers, offering a welcoming space for individuals and organizations to connect and
+            share our passion for technology.
           </p>
           <SocialButtons />
           <div className="flex justify-center">
             <a target="_blank" href="https://www.meetup.com/TechAllianceSWFL/" rel="noopener noreferrer">
-              <p className="mb-4">
-                Become a part of our community!
-              </p>
             </a>
           </div>
         </div>

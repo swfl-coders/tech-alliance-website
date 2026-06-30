@@ -7,7 +7,6 @@ export default function SocialButtons() {
     return (
         <div>
              <div className="flex flex-col justify-center p-2">
-              <p className="font-medium">Join us!</p>
               <div className="flex flex-col gap-6 justify-center items-center py-4 md:flex-row md:gap-14">
                 <a
                 target="_blank"
